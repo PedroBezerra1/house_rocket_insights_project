@@ -78,11 +78,17 @@ Ferramentas utilizadas no projeto:
 Etapas para solucionar o problema de negócio:
 
 **1.** Coleta de dados.
+
 **2.** Entendimento do negócio.
+
 **3.** Tratamento e limpeza de dados.
+
 **4.** Exploração de dados.
+
 **5.** Teste de hipóteses do negócio.
+
 **6.** Responder os problemas do negócio.
+
 **7.** Realizar o deploy do produto de dados - Dashboard interativo.
 
 ## 5.Resultados da Análise
@@ -116,7 +122,7 @@ Etapas para solucionar o problema de negócio:
 | H8: Pelo menos 80% dos imóveis com vista para água possuem nível de construção 10 ou mais. | H8 é falsa, pois os imóveis com boa condição representam 36.20%. Sendo o total de imóveis em boa condição: 163 e os imóveis com nível de construção 10 ou mais: 59. | ![h8](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H8.png) |
 
 ## 6.Resultados Financeiros
-Após a realização da exploração de dados, considerando as premissas e as questões de negócio, chegamos ao seguintes resultados financeiros:
+Após a realização da exploração de dados, considerando as premissas e as questões de negócio, chegamos aos seguintes resultados financeiros:
 ### Compra
 * Selecionados 3.808 imóveis para serem comprados.
 * O valor do aporte para aquisição dos imóveis selecionados é de $ 1.498.319.634,00.
@@ -129,14 +135,3 @@ Considerado apenas os 3.808 imóveis selecionados para compra.
 ## 7.Conclusão
 O Objetivo do projeto foi atingido, a entrega do dashboard interativo e as respostas para as questões de negócio, auxiliaram o time de negócios na tomada de decisões corretas, cumprindo as metas e maximizando a lucratividade da empresa.
 
-
-
-
-
-Neste projeto será definido:
-Número de imóveis aptos a serem comprados;
-Indicação de quais imóveis devem ser comprados;
-Valor do preço de compra;
-Valor do preço de venda;
-Melhor período para realizar a venda;
-Lucratividade da operação.
