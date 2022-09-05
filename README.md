@@ -1,4 +1,4 @@
-## Projeto de Insights House Rocket
+# Projeto de Insights House Rocket
 
 ## Orientações
 
@@ -85,7 +85,7 @@ Etapas para solucionar o problema de negócio:
 
 ## 5.Resultados da Análise
 * Foi realizado um overview dos dados através de um **Histograma** de todas as variáveis para auxiliar a analise prévia e necessidade de criação de novos atributos
-![Histograma](https://github.com/)
+![Histograma](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/Histograma_.png)
 
 * Durante a exploração dos dados foi observado a necessidade de criação de **Novas Features** para auxiliar a analise, sendo elas:
 
@@ -101,19 +101,19 @@ Etapas para solucionar o problema de negócio:
 |reformada | Indica se a construção foi reformada: sendo 1 para foi reformada e 0 para não foi reformada . |
 
  * **Teste de Hipóteses do Negócio**
- 
+
 | Hipótese | Resultado | Gráfico |
 | -------- | --------- | ------- |
-| H1: Imóveis que possuem vista para água são pelo menos 30% mais caros, na média. | H1 é verdadeira, pois os imóveis com vista para a água, em média, são 211.76% mais caros. |  A ![h1](https://github.com/) |
-| H2: Imóveis com data de construção menor do que 1955, são 50% mais baratos na média. | H2 é falsa, pois os imóveis anteriores a 1955, são em média 1.40% mais caros. | ![h2](https://github.com/) |
-| H3: Imóveis sem porão possuem área total (sqrt_lot) 50% maiores do que imóveis com 	porões, na média. | H3 é falsa, pois os imóveis sem porão são, em média, -18.56% maiores do que imóveis com porão. | ![h3](https://github.com/) |
-| H4: O Crescimento do preço dos imóveis YoY (Year over Year) é de 10%, em média. | H4 é falsa, pois o crescimento dos preços dos imóveis YoY, em média, é de 0.05% | ![h4](https://github.com/) |
-| H5: Imóveis com 3 banheiros tem um crescimento médio no Preço MoM (Month of Month) de 15%. | H5 é falsa, os imóveis não possuem um crescimento MoM de 15%, pois ele prossui uma variação média no período de 0.96% | ![h5](https://github.com/) |
-| H6: Imóveis que nunca foram reformados (yr_renovated == 0) são em média 20% mais baratos. | H6 é verdadeira, pois os imóveis que não foram reformados são mais baratos, em média,43.29% | ![h6](https://github.com/) |
-| H7: Pelo menos 80% dos imóveis com condição 4 e 5 tem níveis de construção 7 ou mais. | H7 é verdadeira, pois 8568% dos imóveis estão em boa condição. Sendo o total de imóveis em boa condição: 7332 e os imóveis com nível de construção 7 ou mais: 6282. | ![h7](https://github.com/) |
-| H8: Pelo menos 80% dos imóveis com vista para água possuem nível de construção 10 ou mais. | H8 é falsa, pois os imóveis com boa condição representam 36.20%. Sendo o total de imóveis em boa condição: 163 e os imóveis com nível de construção 10 ou mais: 59. | ![h8](https://github.com/) |
+| H1: Imóveis que possuem vista para água são pelo menos 30% mais caros, na média. | H1 é verdadeira, pois os imóveis com vista para a água, em média, são 211.76% mais caros. | ![h1](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H1.png) |
+| H2: Imóveis com data de construção menor do que 1955, são 50% mais baratos na média. | H2 é falsa, pois os imóveis anteriores a 1955, são em média 1.40% mais caros. | ![h2](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H2.png) |
+| H3: Imóveis sem porão possuem área total (sqrt_lot) 50% maiores do que imóveis com 	porões, na média. | H3 é falsa, pois os imóveis sem porão são, em média, -18.56% maiores do que imóveis com porão. | ![h3](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H3.png) |
+| H4: O Crescimento do preço dos imóveis YoY (Year over Year) é de 10%, em média. | H4 é falsa, pois o crescimento dos preços dos imóveis YoY, em média, é de 0.05% | ![h4](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H4.png) |
+| H5: Imóveis com 3 banheiros tem um crescimento médio no Preço MoM (Month of Month) de 15%. | H5 é falsa, os imóveis não possuem um crescimento MoM de 15%, pois ele prossui uma variação média no período de 0.96% | ![h5](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H5.png) |
+| H6: Imóveis que nunca foram reformados (yr_renovated == 0) são em média 20% mais baratos. | H6 é verdadeira, pois os imóveis que não foram reformados são mais baratos, em média,43.29% | ![h6](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H6.png) |
+| H7: Pelo menos 80% dos imóveis com condição 4 e 5 tem níveis de construção 7 ou mais. | H7 é verdadeira, pois 8568% dos imóveis estão em boa condição. Sendo o total de imóveis em boa condição: 7332 e os imóveis com nível de construção 7 ou mais: 6282. | ![h7](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H7.png) |
+| H8: Pelo menos 80% dos imóveis com vista para água possuem nível de construção 10 ou mais. | H8 é falsa, pois os imóveis com boa condição representam 36.20%. Sendo o total de imóveis em boa condição: 163 e os imóveis com nível de construção 10 ou mais: 59. | ![h8](https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/H8.png) |
 
-## 6.Resultados financeiros
+## 6.Resultados Financeiros
 Após a realização da exploração de dados, considerando as premissas e as questões de negócio, chegamos ao seguintes resultados financeiros:
 ### Compra
 * Selecionados 3.808 imóveis para serem comprados.
@@ -127,3 +127,14 @@ Considerado apenas os 3.808 imóveis selecionados para compra.
 ## 7.Conclusão
 O Objetivo do projeto foi atingido, a entrega do dashboard interativo e as respostas para as questões de negócio, auxiliaram o time de negócios na tomada de decisões corretas, cumprindo as metas e maximizando a lucratividade da empresa.
 
+
+
+
+
+Neste projeto será definido:
+Número de imóveis aptos a serem comprados;
+Indicação de quais imóveis devem ser comprados;
+Valor do preço de compra;
+Valor do preço de venda;
+Melhor período para realizar a venda;
+Lucratividade da operação.
