@@ -1,5 +1,7 @@
 # Projeto de Insights House Rocket
 
+<img src="https://github.com/PedroBezerra1/house_rocket_insights_project/blob/main/image/Logo.png" width=70% height=70% />
+
 ## Orientações
 
 O contexto de negócio envolvendo este projeto é fictício. A base de dados foi extraída do [Kaggle](https://www.kaggle.com/datasets/harlfoxem/housesalesprediction)
